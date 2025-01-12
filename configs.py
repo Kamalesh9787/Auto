@@ -1,12 +1,12 @@
 from os import path, getenv
 
 class Config:
-    API_ID = int(getenv("API_ID", "0112234"))
-    API_HASH = getenv("API_HASH", "abcdefg")
-    BOT_TOKEN = getenv("BOT_TOKEN", "1234567891:AdDfgFRFVVfDEhdhyjjvjjftSEW")
-    FSUB = getenv("FSUB", "SDBotz")
-    CHID = int(getenv("CHID", "-1000112234"))
-    SUDO = list(map(int, getenv("SUDO").split()))
+    API_ID = int(getenv("API_ID", "25599491"))
+    API_HASH = getenv("API_HASH", "c8e3c0561cf148a6504f27b111fc3698")
+    BOT_TOKEN = getenv("BOT_TOKEN", "")
+    FSUB = getenv("FSUB", "Tamil_Mini")
+    CHID = int(getenv("CHID", "-1002053727982"))
+    SUDO = list(map(int, getenv("SUDO", "5983189506").split()))
     MONGO_URI = getenv("MONGO_URI", "")
     
 cfg = Config()
